@@ -1,0 +1,16 @@
+.card-list{
+  overflow: auto;
+  max-height: calc(100vh - 6rem);
+}
+
+@media screen and (max-width: 575px){
+
+  .side{
+    max-height: 45vh;
+  }
+
+  .card-list{
+    overflow: auto;
+    max-height: 40vh;
+  }
+}

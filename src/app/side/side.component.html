@@ -1,0 +1,28 @@
+<div class="row side">
+  <div class="col-4 alert-success py-md-2 py-1 ">
+    <div class="form-group row py-md-2 py-1 my-1">
+      <label for="exampleFormControlSelect1" class="pr-0 text-center col-2 col-form-label">縣市</label>
+      <div class="col pr-md-5">
+        <select class="form-control " id="formControlSelect1" (change)="changeCity($event)">
+          <!-- <option *ngFor="let item of cityData;let index=index;" value="{{index}}">{{item.CityName}}</option> -->
+        </select>
+      </div>
+    </div>
+    <div class="form-group row py-md-2 py-1 my-1">
+      <label for="exampleFormControlSelect1" class="pr-0 text-center col-2  col-form-label">地區</label>
+      <div class="col pr-md-5">
+        <select class="form-control" id="formControlSelect2" (change)="changeArea($event)">
+          <!-- <option *ngFor="let item of areaList">{{item.AreaName}}</option> -->
+        </select>
+      </div>
+    </div>
+  </div>
+  <div class="col-8 pr-md-3 pl-md-3 pr-2 pl-2 pd-0">
+    <div *ngIf="features.length===0" class="m-3">資料載入中...</div>
+    <div class="row card-list ">
+      <div class="col-12" *ngFor="let item of features">
+        <app-card ></app-card>
+      </div>
+    </div>
+  </div>
+</div>
