@@ -8,6 +8,9 @@ import { HeaderComponent } from './header/header.component';
 import { SideComponent } from './side/side.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
+import { NoopAnimationsModule } from '@angular/platform-browser/animations';
+import { SharedMaterialModule } from './shared-material/shared-material.module';
+
 
 @NgModule({
   declarations: [
@@ -20,7 +23,9 @@ import { CardComponent } from './card/card.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NoopAnimationsModule,
+    SharedMaterialModule
   ],
   providers: [],
   bootstrap: [AppComponent]
