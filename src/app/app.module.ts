@@ -10,7 +10,6 @@ import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { SharedMaterialModule } from './shared-material/shared-material.module';
-import { FlexLayoutModule } from '@angular/flex-layout'
 
 @NgModule({
   declarations: [
@@ -25,8 +24,7 @@ import { FlexLayoutModule } from '@angular/flex-layout'
     BrowserModule,
     AppRoutingModule,
     SharedMaterialModule,
-    NoopAnimationsModule,
-    FlexLayoutModule
+    NoopAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
