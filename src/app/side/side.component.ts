@@ -7,20 +7,20 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
 })
 export class SideComponent implements OnInit {
 
-  @Input()
-  features;
-  @Input()
-  cityData;
+  // @Input()
+  // features;
+  // @Input()
+  // cityData;
 
-  cityDataLoaded = false;
-  areaList = [];
-  select = { City: '台北市', Area: '中正區' };
+  // cityDataLoaded = false;
+  // areaList = [];
+  // select = { City: '台北市', Area: '中正區' };
 
-  @Output()
-  clickCardEvent = new EventEmitter();
+  // @Output()
+  // clickCardEvent = new EventEmitter();
 
-  @Output()
-  selectEvent = new EventEmitter();
+  // @Output()
+  // selectEvent = new EventEmitter();
 
   constructor() { }
 
