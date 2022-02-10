@@ -1,12 +1,8 @@
 # TheF2eWeek2
 
-此專案為參加[六角學院](https://www.hexschool.com/)所舉辦的[The F2E](https://2021.thef2e.com/)而生，
+此專案為參加[六角學院](https://www.hexschool.com/)所舉辦的[The F2E](https://2021.thef2e.com/)而生，至[作品列表](https://2021.thef2e.com/works)，採用所喜愛的設計稿，
 
-至[作品列表](https://2021.thef2e.com/works)，採用所喜愛的設計稿，
-
-以一週的時間下去實作，
-
-這週主題為[「自行車道地圖資訊整合網」](https://andychung0214.github.io/the-f2e-week2)
+以一週的時間下去實作，這週主題為[「自行車道地圖資訊整合網」](https://andychung0214.github.io/the-f2e-week2)
 
 ## 使用技術
 
