@@ -1,27 +1,36 @@
 # TheF2eWeek2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+此專案為參加[六角學院](https://www.hexschool.com/)所舉辦的[The F2E](https://2021.thef2e.com/)而生，
 
-## Development server
+至[作品列表](https://2021.thef2e.com/works)，採用所喜愛的設計稿，
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+以一週的時間下去實作，
 
-## Code scaffolding
+這週主題為[「自行車道地圖資訊整合網」](https://andychung0214.github.io/the-f2e-week2)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 使用技術
 
-## Build
+- Angular
+- Scss
+- AJAX
+- RWD
+- Angular Material
+- CSS Flex
+- Leaflet
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## 採用設計稿資訊
 
-## Running unit tests
+- 原參考設計稿作者：[ivan_chang](https://youtu.be/hg8DsfV2rg8)
+- 原參考設計稿網址：[Figma](https://www.figma.com/file/zr6I3wtfpg9jByJHWe6yKZ/The-F2E-Week-2?node-id=2%3A3)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- 改參考設計稿作者：[Shiaohan](https://www.behance.net/hsiaohan)
+- 改參考設計稿網址：[Figma](https://www.figma.com/file/TbGIzJq0BU1DvUDrphrcWl/The-F2E-Week-02?node-id=2%3A3)
 
-## Running end-to-end tests
+## 個人投稿資訊
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+- 個人資訊：https://andychung0214.github.io/about/
+- 投稿位址：https://2021.thef2e.com/users/6296432819610583674/
 
-## Further help
+## Demo
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+https://andychung0214.github.io/the-f2e-week2
