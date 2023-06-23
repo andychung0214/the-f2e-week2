@@ -9,7 +9,7 @@ import { SideComponent } from './side/side.component';
 import { FooterComponent } from './footer/footer.component';
 import { CardComponent } from './card/card.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { SharedMaterialModule } from './shared-material/shared-material.module';
+// import { SharedMaterialModule } from './shared-material/shared-material.module';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { SharedMaterialModule } from './shared-material/shared-material.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedMaterialModule,
+    // SharedMaterialModule,
     NoopAnimationsModule
   ],
   providers: [],
